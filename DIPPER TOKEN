@@ -1,0 +1,10 @@
+pragma solidity ^0.4.11;
+
+import "./MintableToken.sol";
+
+contract DIPPERToken is MintableToken {
+    string public constant name = "DIPPER Token";
+    string public constant symbol = "DIPP";
+    uint8 public constant decimals = 18;
+    string public version = "1.0";
+}
